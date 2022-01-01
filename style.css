@@ -1,0 +1,84 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+	height: 100%;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(to right, white 0%, white 50%, #151d31 50%, #151d31 100%);
+}
+header{
+	background: #6c12c6;
+	width: 50%;
+	height: 32em;
+}
+svg{
+	width: 50%;
+}
+header form{
+	background: white;
+	width: 48%;
+	padding: 20px;
+	margin-left: 1%;
+	margin-top: 14em;
+	position: absolute;
+	border-radius: 10px;
+}
+form input{
+	width: 80%;
+	height: 45px;
+	margin-bottom: 5px;
+	border: 0;
+	border-bottom: 1px solid rgba(0, 0, 0, .1);
+	outline: none;
+}
+form input[type='password']{
+	width: 85%;
+}
+form i{
+	color: #eb3b5a;
+}
+form button{
+	width: 90%;
+	background: #eb3b5a;
+	color: white;
+	height: 45px;
+	margin-top: 2px;
+	border-radius: 50px;
+	outline: none;
+	border: 0;
+	cursor: pointer;
+}
+form p a{
+	color: #eb3b5a;
+}
+form h6{
+	text-align: right;
+	direction: rtl;
+	font-weight: 100;
+	font-size: 15px;
+	cursor: pointer;
+	margin: 20px 0px;
+}
+form h6 i{
+	color: #2986cc;
+}
+
+
+@media(max-width: 786px){
+	body{
+		background: white;
+	}
+	header{
+		width: 100%;
+	}
+	header form{
+		width: 95%;
+		margin-left: 2.5%;
+	}
+}
